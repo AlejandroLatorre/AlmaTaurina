@@ -26,28 +26,6 @@ La aplicación estará disponible en `http://localhost:4200/`.
 3. `git status` indica `nothing to commit, working tree clean`.
 4. `git push` confirma que la rama `main` se ha publicado en el remoto `origin` (`AlejandroLatorre/AlmaTaurina`).
 
-## Builds por entorno
-
-Dentro de la carpeta `alma-taurina-app`:
-
-- **Desarrollo (por defecto)**:
-
-  ```bash
-  ng serve
-  ```
-
-- **Staging**:
-
-  ```bash
-  npm run build:staging
-  ```
-
-- **Producción**:
-
-  ```bash
-  npm run build:prod
-  ```
-
 ## Estructura inicial (pensada para escalar)
 
 ```
